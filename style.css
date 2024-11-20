@@ -1,0 +1,76 @@
+body {
+  font-family: "Figtree", sans-serif;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  height: 96vh;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  width: 300px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 17.5px;
+  align-items: start;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 6px 6px 0px black;
+}
+.illustration-article{
+  width: 100%;
+  border-radius: 10px;
+}
+button {
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  border: none;
+  background-color: hsl(47, 88%, 63%);
+  font-size: 12px;
+  border-radius: 2px;
+  padding: 4px 8px;
+  cursor: pointer;
+  transition: font-size 0.3s;
+}
+button:hover {
+  font-size: 14px;
+}
+.published-date {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+}
+.title {
+  margin: 0;
+  font-size: 21px;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s;
+}
+.link:hover {
+  color: hsl(47, 88%, 63%);
+}
+.infotmation {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+  color: hsl(0, 0%, 42%)
+}
+.user-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.image-avatar {
+  width: 29px;
+}
+.name {
+  margin: 0;
+  font-weight: 800;
+  font-size: 12px;
+}
